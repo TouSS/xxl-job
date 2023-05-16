@@ -1,8 +1,6 @@
 package com.xxl.job.core.biz;
 
-import com.xxl.job.core.biz.model.HandleCallbackParam;
-import com.xxl.job.core.biz.model.RegistryParam;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.*;
 
 import java.util.List;
 
@@ -42,7 +40,8 @@ public interface AdminBiz {
     public ReturnT<String> registryRemove(RegistryParam registryParam);
 
 
-    // ---------------------- biz (custome) ----------------------
+    // ---------------------- biz (custom) ----------------------
     // group、job ... manage
-
+    ReturnT<String> groupPersist(GroupParam groupParam);
+    ReturnT<String> jobPersist(JobParam jobParam);
 }

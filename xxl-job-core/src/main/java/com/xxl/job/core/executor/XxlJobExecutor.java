@@ -31,7 +31,7 @@ public class XxlJobExecutor  {
     // ---------------------- param ----------------------
     private String adminAddresses;
     private String accessToken;
-    private String appname;
+    protected String appname;
     private String address;
     private String ip;
     private int port;
