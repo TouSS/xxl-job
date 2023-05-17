@@ -47,12 +47,12 @@ public class AdminBizClient implements AdminBiz {
 
     @Override
     public ReturnT<String> groupPersist(GroupParam groupParam) {
-        return ReturnT.SUCCESS;
+        return XxlJobRemotingUtil.postBody(addressUrl + "api/persistGroup", accessToken, timeout, groupParam, String.class);
     }
 
     @Override
     public ReturnT<String> jobPersist(JobParam jobParam) {
-        return ReturnT.SUCCESS;
+        return XxlJobRemotingUtil.postBody(addressUrl + "api/persistJob", accessToken, timeout, jobParam, String.class);
     }
 
 }

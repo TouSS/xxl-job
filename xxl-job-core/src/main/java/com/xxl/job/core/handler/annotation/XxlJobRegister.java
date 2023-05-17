@@ -10,7 +10,7 @@ public @interface XxlJobRegister {
     String scheduleType() default "CRON";
     String scheduleConf();
     String misfireStrategy() default "DO_NOTHING";
-    String author() default "";
+    String author() default "anonymous";
     String alarmEmail() default "";
     String routeStrategy() default "FIRST";
     String param() default "";

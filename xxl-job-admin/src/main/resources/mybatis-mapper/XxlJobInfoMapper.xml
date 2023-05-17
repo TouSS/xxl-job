@@ -227,6 +227,13 @@
 		ORDER BY id ASC
 		LIMIT #{pagesize}
 	</select>
+	<select id="findByGroupAndHandler" resultType="com.xxl.job.admin.core.model.XxlJobInfo">
+		SELECT <include refid="Base_Column_List" />
+		FROM xxl_job_info AS t
+		INNER JOIN xxl_job_group AS t2 ON t.job_group = t2.id
+		WHERE t.executor_handler = #{handler}
+		AND t2.app_name = #{appName}
+	</select>
 
 	<update id="scheduleUpdate" parameterType="com.xxl.job.admin.core.model.XxlJobInfo"  >
 		UPDATE xxl_job_info
