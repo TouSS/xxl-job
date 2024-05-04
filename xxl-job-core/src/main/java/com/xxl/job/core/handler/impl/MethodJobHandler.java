@@ -22,6 +22,10 @@ public class MethodJobHandler extends IJobHandler {
         this.destroyMethod = destroyMethod;
     }
 
+    public Method getMethod() {
+        return method;
+    }
+
     @Override
     public void execute() throws Exception {
         Class<?>[] paramTypes = method.getParameterTypes();
