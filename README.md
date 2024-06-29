@@ -32,6 +32,17 @@
 </p>
 
 
+## Sponsor
+XXL-JOB is an open source and free project, with its ongoing development made possible entirely by the support of these awesome backers.
+
+XXL-JOB 是一个开源且免费项目，其正在进行的开发完全得益于支持者的支持。开源不易，[前往赞助项目开发](https://www.xuxueli.com/page/donate.html )
+
+<div>
+    <a href="https://www.jetbrains.com/idea/" title="jetbrains" target="_blank" >
+        <img style="border:1px solid #dfe2e5;height:55px;vertical-align: middle;" src="https://www.xuxueli.com/page/static/images/logo_intellij.jpeg" >
+    </a>
+</div>
+
 ## Introduction
 XXL-JOB is a distributed task scheduling framework. 
 It's core design goal is to develop quickly and learn simple, lightweight, and easy to expand. 
@@ -797,10 +808,4 @@ This product is open source and free, and will continue to provide free communit
 - Licensed under the GNU General Public License (GPL) v3.
 - Copyright (c) 2015-present, xuxueli.
 
-产品开源免费，并且将持续提供免费的社区技术支持。个人或企业内部可自由的接入和使用。如有需要可邮件联系作者免费获取项目授权。
-
-
-## Donate
-No matter how much the donation amount is enough to express your thought, thank you very much ：）     [To donate](https://www.xuxueli.com/page/donate.html )
-
-无论捐赠金额多少都足够表达您这份心意，非常感谢 ：）      [前往捐赠](https://www.xuxueli.com/page/donate.html )
+产品开源免费，并且将持续提供免费的社区技术支持。个人或企业内部可自由的接入和使用。如有需要可 [邮件联系](https://www.xuxueli.com/page/community.html) 作者免费获取项目授权。
